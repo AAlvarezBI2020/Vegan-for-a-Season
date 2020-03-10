@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0005AFB23A8383100744C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0005AFA23A8383100744C59 /* Main.storyboard */; };
+		B070204323A43004003B2FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070204223A43004003B2FB1 /* AppDelegate.swift */; };
+		B070204523A43004003B2FB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070204423A43004003B2FB1 /* SceneDelegate.swift */; };
+		B070204723A43004003B2FB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070204623A43004003B2FB1 /* ContentView.swift */; };
+		B070204923A43007003B2FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B070204823A43007003B2FB1 /* Assets.xcassets */; };
+		B070204C23A43007003B2FB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B070204B23A43007003B2FB1 /* Preview Assets.xcassets */; };
+		B070204F23A43007003B2FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B070204D23A43007003B2FB1 /* LaunchScreen.storyboard */; };
+		B070205A23A43007003B2FB1 /* Vegan_for_a_SeasonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070205923A43007003B2FB1 /* Vegan_for_a_SeasonTests.swift */; };
+		B070206523A43007003B2FB1 /* Vegan_for_a_SeasonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070206423A43007003B2FB1 /* Vegan_for_a_SeasonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B070205623A43007003B2FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B070203723A43004003B2FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B070203E23A43004003B2FB1;
+			remoteInfo = "Vegan for a Season";
+		};
+		B070206123A43007003B2FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B070203723A43004003B2FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B070203E23A43004003B2FB1;
+			remoteInfo = "Vegan for a Season";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0005AFA23A8383100744C59 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B070203F23A43004003B2FB1 /* Vegan for a Season.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vegan for a Season.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B070204223A43004003B2FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B070204423A43004003B2FB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B070204623A43004003B2FB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B070204823A43007003B2FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B070204B23A43007003B2FB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B070204E23A43007003B2FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B070205023A43007003B2FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B070205523A43007003B2FB1 /* Vegan for a SeasonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vegan for a SeasonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B070205923A43007003B2FB1 /* Vegan_for_a_SeasonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegan_for_a_SeasonTests.swift; sourceTree = "<group>"; };
+		B070205B23A43007003B2FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B070206023A43007003B2FB1 /* Vegan for a SeasonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vegan for a SeasonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B070206423A43007003B2FB1 /* Vegan_for_a_SeasonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegan_for_a_SeasonUITests.swift; sourceTree = "<group>"; };
+		B070206623A43007003B2FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B070203C23A43004003B2FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B070205223A43007003B2FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B070205D23A43007003B2FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B070203623A43004003B2FB1 = {
+			isa = PBXGroup;
+			children = (
+				B070204123A43004003B2FB1 /* Vegan for a Season */,
+				B070205823A43007003B2FB1 /* Vegan for a SeasonTests */,
+				B070206323A43007003B2FB1 /* Vegan for a SeasonUITests */,
+				B070204023A43004003B2FB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B070204023A43004003B2FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B070203F23A43004003B2FB1 /* Vegan for a Season.app */,
+				B070205523A43007003B2FB1 /* Vegan for a SeasonTests.xctest */,
+				B070206023A43007003B2FB1 /* Vegan for a SeasonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B070204123A43004003B2FB1 /* Vegan for a Season */ = {
+			isa = PBXGroup;
+			children = (
+				B070204223A43004003B2FB1 /* AppDelegate.swift */,
+				B070204423A43004003B2FB1 /* SceneDelegate.swift */,
+				B070204623A43004003B2FB1 /* ContentView.swift */,
+				B070204823A43007003B2FB1 /* Assets.xcassets */,
+				B070204D23A43007003B2FB1 /* LaunchScreen.storyboard */,
+				B0005AFA23A8383100744C59 /* Main.storyboard */,
+				B070205023A43007003B2FB1 /* Info.plist */,
+				B070204A23A43007003B2FB1 /* Preview Content */,
+			);
+			path = "Vegan for a Season";
+			sourceTree = "<group>";
+		};
+		B070204A23A43007003B2FB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B070204B23A43007003B2FB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B070205823A43007003B2FB1 /* Vegan for a SeasonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B070205923A43007003B2FB1 /* Vegan_for_a_SeasonTests.swift */,
+				B070205B23A43007003B2FB1 /* Info.plist */,
+			);
+			path = "Vegan for a SeasonTests";
+			sourceTree = "<group>";
+		};
+		B070206323A43007003B2FB1 /* Vegan for a SeasonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B070206423A43007003B2FB1 /* Vegan_for_a_SeasonUITests.swift */,
+				B070206623A43007003B2FB1 /* Info.plist */,
+			);
+			path = "Vegan for a SeasonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B070203E23A43004003B2FB1 /* Vegan for a Season */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B070206923A43007003B2FB1 /* Build configuration list for PBXNativeTarget "Vegan for a Season" */;
+			buildPhases = (
+				B070203B23A43004003B2FB1 /* Sources */,
+				B070203C23A43004003B2FB1 /* Frameworks */,
+				B070203D23A43004003B2FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vegan for a Season";
+			productName = "Vegan for a Season";
+			productReference = B070203F23A43004003B2FB1 /* Vegan for a Season.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B070205423A43007003B2FB1 /* Vegan for a SeasonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B070206C23A43007003B2FB1 /* Build configuration list for PBXNativeTarget "Vegan for a SeasonTests" */;
+			buildPhases = (
+				B070205123A43007003B2FB1 /* Sources */,
+				B070205223A43007003B2FB1 /* Frameworks */,
+				B070205323A43007003B2FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B070205723A43007003B2FB1 /* PBXTargetDependency */,
+			);
+			name = "Vegan for a SeasonTests";
+			productName = "Vegan for a SeasonTests";
+			productReference = B070205523A43007003B2FB1 /* Vegan for a SeasonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B070205F23A43007003B2FB1 /* Vegan for a SeasonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B070206F23A43007003B2FB1 /* Build configuration list for PBXNativeTarget "Vegan for a SeasonUITests" */;
+			buildPhases = (
+				B070205C23A43007003B2FB1 /* Sources */,
+				B070205D23A43007003B2FB1 /* Frameworks */,
+				B070205E23A43007003B2FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B070206223A43007003B2FB1 /* PBXTargetDependency */,
+			);
+			name = "Vegan for a SeasonUITests";
+			productName = "Vegan for a SeasonUITests";
+			productReference = B070206023A43007003B2FB1 /* Vegan for a SeasonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B070203723A43004003B2FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ariel Alvarez";
+				TargetAttributes = {
+					B070203E23A43004003B2FB1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					B070205423A43007003B2FB1 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B070203E23A43004003B2FB1;
+					};
+					B070205F23A43007003B2FB1 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B070203E23A43004003B2FB1;
+					};
+				};
+			};
+			buildConfigurationList = B070203A23A43004003B2FB1 /* Build configuration list for PBXProject "Vegan for a Season" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B070203623A43004003B2FB1;
+			productRefGroup = B070204023A43004003B2FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B070203E23A43004003B2FB1 /* Vegan for a Season */,
+				B070205423A43007003B2FB1 /* Vegan for a SeasonTests */,
+				B070205F23A43007003B2FB1 /* Vegan for a SeasonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B070203D23A43004003B2FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B070204F23A43007003B2FB1 /* LaunchScreen.storyboard in Resources */,
+				B070204C23A43007003B2FB1 /* Preview Assets.xcassets in Resources */,
+				B070204923A43007003B2FB1 /* Assets.xcassets in Resources */,
+				B0005AFB23A8383100744C59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B070205323A43007003B2FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B070205E23A43007003B2FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B070203B23A43004003B2FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B070204323A43004003B2FB1 /* AppDelegate.swift in Sources */,
+				B070204523A43004003B2FB1 /* SceneDelegate.swift in Sources */,
+				B070204723A43004003B2FB1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B070205123A43007003B2FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B070205A23A43007003B2FB1 /* Vegan_for_a_SeasonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B070205C23A43007003B2FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B070206523A43007003B2FB1 /* Vegan_for_a_SeasonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B070205723A43007003B2FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B070203E23A43004003B2FB1 /* Vegan for a Season */;
+			targetProxy = B070205623A43007003B2FB1 /* PBXContainerItemProxy */;
+		};
+		B070206223A43007003B2FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B070203E23A43004003B2FB1 /* Vegan for a Season */;
+			targetProxy = B070206123A43007003B2FB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B070204D23A43007003B2FB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B070204E23A43007003B2FB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B070206723A43007003B2FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B070206823A43007003B2FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B070206A23A43007003B2FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vegan for a Season/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Vegan for a Season/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MSMBI.Vegan-for-a-Season";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B070206B23A43007003B2FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vegan for a Season/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Vegan for a Season/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MSMBI.Vegan-for-a-Season";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B070206D23A43007003B2FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vegan for a SeasonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MSMBI.Vegan-for-a-SeasonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vegan for a Season.app/Vegan for a Season";
+			};
+			name = Debug;
+		};
+		B070206E23A43007003B2FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vegan for a SeasonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MSMBI.Vegan-for-a-SeasonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vegan for a Season.app/Vegan for a Season";
+			};
+			name = Release;
+		};
+		B070207023A43007003B2FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vegan for a SeasonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MSMBI.Vegan-for-a-SeasonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vegan for a Season";
+			};
+			name = Debug;
+		};
+		B070207123A43007003B2FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vegan for a SeasonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MSMBI.Vegan-for-a-SeasonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vegan for a Season";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B070203A23A43004003B2FB1 /* Build configuration list for PBXProject "Vegan for a Season" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B070206723A43007003B2FB1 /* Debug */,
+				B070206823A43007003B2FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B070206923A43007003B2FB1 /* Build configuration list for PBXNativeTarget "Vegan for a Season" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B070206A23A43007003B2FB1 /* Debug */,
+				B070206B23A43007003B2FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B070206C23A43007003B2FB1 /* Build configuration list for PBXNativeTarget "Vegan for a SeasonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B070206D23A43007003B2FB1 /* Debug */,
+				B070206E23A43007003B2FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B070206F23A43007003B2FB1 /* Build configuration list for PBXNativeTarget "Vegan for a SeasonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B070207023A43007003B2FB1 /* Debug */,
+				B070207123A43007003B2FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B070203723A43004003B2FB1 /* Project object */;
+}
